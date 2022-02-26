@@ -1,0 +1,9 @@
+body {
+  background: linear-gradient(90deg, rgb(13, 23, 95) 0%, rgb(26, 20, 195) 100%);
+  text-shadow: 5px 5px 10px rgba(158, 156, 158, 0.4);
+  color: #9e9c9e;
+}
+
+.icon {
+  max-width: 70px;
+}
