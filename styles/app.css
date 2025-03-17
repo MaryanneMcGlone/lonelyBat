@@ -46,3 +46,9 @@ body {
   font-size: x-large;
   color: #318ea8;
 }
+
+/* @media screen and (max-width: 600px) {
+	.homepage {
+	  width: 100%;
+	}
+  } */
