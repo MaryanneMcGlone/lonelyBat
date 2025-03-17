@@ -8,8 +8,13 @@ body {
   max-width: 70px;
 }
 
+.home-h1 {
+  text-align: center;
+}
+
 .books-tablecloth {
-  max-width: 700px;
+  max-width: 1000px;
+  float: center;
 }
 
 #contact-h1 {
