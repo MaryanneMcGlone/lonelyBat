@@ -7,3 +7,37 @@ body {
 .icon {
   max-width: 70px;
 }
+
+.books-tablecloth {
+  max-width: 700px;
+}
+
+#contact-h1 {
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+.contact-page {
+  color: #7FBCAF;
+  padding-left: 50px;
+}
+
+.books-img {
+  float: right;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+#contact-description {
+  font-size: x-large;
+  max-width: 600px;
+  margin-top: 20px;
+  margin: 25px, 25px, 25px, 75px;
+  padding: 25px, 25px, 25px, 75px;
+}
+
+.email-link {
+  font-size: x-large;
+  color: #318ea8;
+}
