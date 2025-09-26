@@ -3,7 +3,7 @@ html, body {
   background-color: #0d175f;
   min-height: 100vh;
   text-shadow: 5px 5px 10px rgba(158, 156, 158, 0.4);
-  color: #7FBCAF;
+  color: #6CA095;
 }
 
 .icon {
@@ -15,7 +15,7 @@ html, body {
   text-align: center;
   font-size: 2.5rem;
   font-weight: 700;
-  color: #7FBCAF;
+  color: #6CA095;
 }
 
 h4, a, a:hover {
@@ -47,19 +47,20 @@ h4, a, a:hover {
 
 
 .contact-page {
-  color: #7FBCAF;
+  color: #6CA095;
   padding-left: 50px;
 }
 
 
-.books-img {
+.authors-img {
   float: none;
-  display: block;
+  display: flex;
   margin: 0 auto 1rem auto;
   width: 50vw;
   max-width: 50vw;
   min-width: 200px;
   height: auto;
+  justify-content: center;
 }
 
 
@@ -72,7 +73,7 @@ h4, a, a:hover {
 .contact-flex {
   width: 100%;
 }
-.books-img, .contact-card {
+.authors-img, .contact-card {
   width: 100%;
   max-width: 500px;
   display: flex;
@@ -87,6 +88,9 @@ h4, a, a:hover {
   border-radius: 1rem;
 }
 
+.local-events-p {
+  text-align: center;
+}
 
 
 @media (max-width: 768px) {
@@ -94,7 +98,7 @@ h4, a, a:hover {
     flex-direction: column !important;
     align-items: center !important;
   }
-  .books-img, .contact-card {
+  .authors-img, .contact-card {
     max-width: 95vw;
     width: 95%;
     margin-left: auto;
@@ -142,19 +146,18 @@ h4, a, a:hover {
     text-align: center;
   }
 
-  .books-img {
+  .authors-img {
     height: auto;
     object-fit: contain;
     display: block;
-    margin-top: 1rem;
     margin-bottom: 0;
     flex-direction: column;
     box-sizing: border-box;
     border-radius: 1rem;
   }
   
-  .books-img {
-    margin-top: 2rem;
+  .authors-img {
+    margin-top: 4rem;
     float: none;
     display: block;
     max-width: 100%;
@@ -166,14 +169,14 @@ h4, a, a:hover {
 
 .email-link {
   font-size: x-large;
-  color: #318ea8;
+  color: #6CA095;
 }
 
 @media screen and (max-width: 600px) {
   .homepage {
     width: 100%;
   }
-    .books-img img {
+    .authors-img img {
     width: 100%;
     max-width: 90vw;
     height: auto;
